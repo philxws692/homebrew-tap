@@ -1,20 +1,20 @@
 class Kt2j2tRs < Formula
   desc "Convert KaumaTests JSON files to json2tests-rs JSON files"
   homepage "https://github.com/philxws692/kt2j2t-rs"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/philxws692/kt2j2t-rs/releases/download/v0.1.0/kt2j2t-rs-aarch64-apple-darwin.tar.xz"
-      sha256 "79a2b38d2d0dae22d6f223a47723f90aa4fd36cc7c8d0b023d43fb2080cc74a6"
+      url "https://github.com/philxws692/kt2j2t-rs/releases/download/v0.2.0/kt2j2t-rs-aarch64-apple-darwin.tar.xz"
+      sha256 "a4ff2e4a3b1c531a6d131a58d2d507e523256ae44e8442bd8cacbd826dd70b6e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/philxws692/kt2j2t-rs/releases/download/v0.1.0/kt2j2t-rs-x86_64-apple-darwin.tar.xz"
-      sha256 "7adac93f7d4d5327c74f3172ee2b464cdf32e90f75d8d5c95309ee0d1424b2f5"
+      url "https://github.com/philxws692/kt2j2t-rs/releases/download/v0.2.0/kt2j2t-rs-x86_64-apple-darwin.tar.xz"
+      sha256 "a2103663b9e1cc92934d168bfa31a2487b1500157850174fe8774c904d3b1b75"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/philxws692/kt2j2t-rs/releases/download/v0.1.0/kt2j2t-rs-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "38d11424446c2d237aaaff32352b9cc17ca4c62cf82d7597d0a6768879de1665"
+    url "https://github.com/philxws692/kt2j2t-rs/releases/download/v0.2.0/kt2j2t-rs-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "c61fe2abfe42db1e0332e82f7be1134c1ce16f804c9a04af0422d652cb67a690"
   end
 
   BINARY_ALIASES = {
