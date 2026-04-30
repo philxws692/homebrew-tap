@@ -1,25 +1,25 @@
 class Moorenew < Formula
   desc "Update your mailcow certificates from an external server easily"
   homepage "https://github.com/philxws692/moorenew"
-  version "1.0.0"
+  version "1.0.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/philxws692/moorenew/releases/download/v1.0.0/moorenew-aarch64-apple-darwin.tar.xz"
-      sha256 "74a59462fa033bd459e15081582194ba018b4481d4eeaa0820f3c16f5cdfbf7c"
+      url "https://github.com/philxws692/moorenew/releases/download/v1.0.1/moorenew-aarch64-apple-darwin.tar.xz"
+      sha256 "1757488ded79618396806fd695ef3b5f57ad0c7dab5716e1e705f5dce138e11d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/philxws692/moorenew/releases/download/v1.0.0/moorenew-x86_64-apple-darwin.tar.xz"
-      sha256 "cee8e7958693b4fe06e3629d4381f8c0290bf8f1db4abdc47913241b92fc045f"
+      url "https://github.com/philxws692/moorenew/releases/download/v1.0.1/moorenew-x86_64-apple-darwin.tar.xz"
+      sha256 "681ff88308ec3030df7a48ceb497842a963cf60ab4acb5b87ee428b5388bc9ba"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/philxws692/moorenew/releases/download/v1.0.0/moorenew-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ea25b0590fa791b53bee7aa9777b54326ba90ac14b15660fc0dd6568e270094f"
+      url "https://github.com/philxws692/moorenew/releases/download/v1.0.1/moorenew-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ab1b7253c931d4f472dac8f9aba8bbdcee91872b0c1fa692d353fa5012d9f8d3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/philxws692/moorenew/releases/download/v1.0.0/moorenew-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b33bc886c10821f65d1d41bbb45a4de20b7def5ce320d6f34ecb22a43bccdc38"
+      url "https://github.com/philxws692/moorenew/releases/download/v1.0.1/moorenew-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "ff708238661a7a8566609ce12733ce5e5079973da4f28f080c1811b4e3df45d4"
     end
   end
 
